@@ -1,0 +1,54 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14pt;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 25px;
+}
+h2 {
+  text-align: center;
+}
+h1 {
+  display: inline-block;
+}
+.container {
+  border: solid 1px black;
+  border-radius: 5px;
+  max-width: 1200px;
+  margin-left: 15px;
+  padding: 10px;
+}
+.container:not(:last-child) {
+  text-align: center;
+}
+.input_field {
+  padding-left: 3px;
+  margin: 10px 10px 15px 0;
+}
+.addButton {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px 5px 3px 5px;
+  border-radius: 5px;
+  height: 40px;
+  width: 300px;
+  background-color: dodgerblue;
+  overflow: hidden;
+}
+.listItem_container {
+  display: flex;
+  max-width: 550px;
+  justify-content: space-between;
+}
+.deleteButton {
+  border-radius: 5px;
+  height: auto;
+  width: 100px;
+  background-color: limegreen;
+  overflow: hidden;
+  font-size: 12pt;
+}
